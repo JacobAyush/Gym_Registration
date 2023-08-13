@@ -1,0 +1,132 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+
+body{
+    background-image: url('hero gym.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow:hidden;
+}
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    /* margin: auto; */
+}
+
+.left img{
+    width: 90px;
+    height: 80px;
+}
+
+.left div{
+    text-align: center;
+    line-height: 15px;
+}
+
+.mid{
+    display: block;
+    width: 55%;
+    /* margin: auto; */
+    margin: 18px auto;
+    /* border: 2px solid greenyellow; */
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid white; */
+    /* margin: auto; */
+}
+
+.navBar{
+    display: inline-block;
+}
+
+.navBar li{
+    font-size: 25px;
+    display: inline-block;
+}
+
+.navBar li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+.navBar li a:hover,.navBar li a.active{
+    text-decoration: underline;
+    color: rgb(142, 250, 2);
+} 
+
+.btn{
+    margin: 0px 9px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    /* font-weight: 700; */
+}
+
+.btn:hover{
+    background-color: rgb(52, 157, 243);
+}
+
+.container{
+    /* border: 2px solid violet; */
+    margin: 105px 85px;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.container h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.formGroup input,label{
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 2px auto;
+    padding: 1px;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.formGroup input{
+    color: black;
+}
+
+.butn{
+    font-size: 15px;
+    color: rgb(8, 8, 0);
+    font-weight: 600;
+}
+
+.formGroup button{
+    background-color: #000;
+    color: #fff;
+    display: block;
+    width: 23%;
+    height: 40px;
+    margin: auto;
+}
